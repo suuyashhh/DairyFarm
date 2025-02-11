@@ -141,7 +141,6 @@
                 cursor: pointer;
             }
 
-        /* For responsiveness */
         @media (max-width: 768px) {
             .profile-image {
                 width: 100%;

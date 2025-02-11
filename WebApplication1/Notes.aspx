@@ -162,7 +162,6 @@
             <div style="margin-top: 150px"></div>
 
             <div class="container mt-4" style="margin-bottom: 100px;">
-                <!-- Note List -->
 
                 <asp:Repeater runat="server" ID="NoteRep">
 
@@ -175,7 +174,6 @@
                                 </div>
                                 <div class="note-time"><a href='#'><%# Eval("date","{0:dd-MMM-yyyy}") %></a></div>
                             </div>
-                            <%--<asp:Button runat="server" ID="btn_Delete" Text="Delete" CssClass="delete-btn" />--%>
                             <asp:LinkButton runat="server" ID="btn_Delete" Text="Delete" CssClass="delete-btn" OnClientClick="return confirm('Do you want to delete this Item?')" OnClick="btn_Delete_Click" Style="color: white;">Delete</asp:LinkButton>
                         </div>
 

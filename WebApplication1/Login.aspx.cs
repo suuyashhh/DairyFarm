@@ -11,16 +11,13 @@ namespace WebApplication1
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Check if there is already a login cookie
             if (Session["username"] == null && Request.Cookies["UserAuth"] != null)
             {
-                // Restore session from the cookie
                 HttpCookie cookie = Request.Cookies["UserAuth"];
                 Session["username"] = cookie["username"];
                 Session["userId"] = cookie["userId"];
                 Session["contact"] = cookie["contact"];
 
-                // Redirect to home page
                 Response.Redirect("WebPage.aspx");
             }
         }
@@ -41,19 +38,16 @@ namespace WebApplication1
                 Session["userId"] = reader.GetValue(0);
                 Session["contact"] = reader.GetValue(3);
 
-                // Create a persistent cookie
                 HttpCookie authCookie = new HttpCookie("UserAuth");
                 authCookie["username"] = reader.GetValue(1).ToString();
                 authCookie["userId"] = reader.GetValue(0).ToString();
                 authCookie["contact"] = reader.GetValue(3).ToString();
-                authCookie.Expires = DateTime.Now.AddDays(30); // Cookie valid for 30 days
+                authCookie.Expires = DateTime.Now.AddDays(30); 
                 Response.Cookies.Add(authCookie);
 
-                // Clear the input fields
                 UserContact.Text = "";
                 UserPassword.Text = "";
 
-                // Redirect to the corresponding page
                 if (Request.QueryString["type"] != null)
                 {
                     string type = Request.QueryString["type"];

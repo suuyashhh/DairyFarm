@@ -144,7 +144,6 @@
 
         <div class="content container-fluid">
             <div class="row">
-                <!-- Animal Name Section -->
                 <div class="col-md-6">
                     <h2>Cattle Master</h2>
                     <div class="form-group">
@@ -175,7 +174,6 @@
             </div>
 
             <div class="row mt-5">
-                <!-- Feed Name Section -->
                 <div class="col-md-6">
                     <h2>Feed Master</h2>
                     <div class="form-group">

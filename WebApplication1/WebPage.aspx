@@ -120,9 +120,8 @@
             </div>
         </nav>
 
-        <!-- Content -->
         <div class="container content-container">
-            <!-- First row -->
+      
             <div class="row row-spacing">
                 <div class="col-4">
                     <div class="box" onclick="window.location.href='AnimalsName.aspx';" style="cursor: pointer;">
@@ -144,7 +143,6 @@
                 </div>
             </div>
 
-            <!-- Second row -->
             <div class="row row-spacing">
                 <div class="col-4">
                     <div class="box" onclick="window.location.href='Medicine.aspx';" style="cursor: pointer;">
@@ -166,7 +164,6 @@
                 </div>
             </div>
 
-            <!-- Third row -->
             <div class="row row-spacing">
                 <div class="col-4">
                     <div class="box" onclick="window.location.href='MonthlyPE.aspx';" style="cursor: pointer;">
@@ -189,7 +186,6 @@
             </div>
 
 
-            <!-- Fourth row -->
             <div class="row row-spacing">
                 <div class="col-4">
                     <div class="box" onclick="window.location.href='History.aspx';" style="cursor: pointer;">
@@ -211,7 +207,6 @@
                 </div>
             </div>
 
-            <!-- Fifth row -->
             <div class="row row-spacing">
                 <div class="col-4">
                     <div class="box" onclick="window.location.href='Calculator.aspx';" style="cursor: pointer;">
@@ -222,13 +217,11 @@
             </div>
         </div>
 
-        <!-- Footer -->
         <footer class="footer">
             Developed by <a href="About.aspx" style="color: white!important">@SuyashPatil</a>
         </footer>
     </form>
 
-    <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

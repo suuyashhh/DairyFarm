@@ -152,7 +152,6 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <!-- Fixed Header -->
         <div class="header">
             <img src="assets/img/target_10772314.png" alt="Icon" />
             <h1>Specific Records</h1>
@@ -234,7 +233,6 @@
         </div>
 
 
-        <!-- GridView to display FEED And OTHERFEED the results -->
         <div class="table-responsive">
             <div class="container-fluid" style="margin-top: 70px;">
                 <asp:Label ID="lblGetTotalFeedOtherFeed" runat="server" Text="Total Feed/Other Feed: 0" Visible="true" CssClass="total-price" />
@@ -274,7 +272,6 @@
         </div>
 
 
-        <!-- GridView to display Doctor And MEDICINE the results -->
         <div class="table-responsive">
             <div class="container-fluid" style="margin: 70px 0px;">
                 <asp:Label ID="lblGetTotalDocMedi" runat="server" Text="Total Doctor/Medicine: 0" Visible="true" CssClass="total-price" />
@@ -315,7 +312,6 @@
 
 
 
-        <!-- GridView to display All Records the results -->
         <div class="table-responsive" style="margin-bottom: 100px;">
             <div class="container-fluid">
                 <asp:GridView ID="gridAllRecords" runat="server" AutoGenerateColumns="False" Visible="False" CssClass="table table-striped table-bordered " Style="text-align: center;">
@@ -360,8 +356,6 @@
         }
     </script>
 
-
-    <!-- Back button handling script -->
     <script type="text/javascript">
         window.onpopstate = function (event) {
             window.location.href = 'WebPage.aspx';

@@ -138,13 +138,11 @@
 <body>
     <form id="form1" runat="server">
         <div class="container-fluid">
-            <!-- Fixed Header with Image and Feeds Title -->
             <div class="header">
                 <img src="assets/img/tablet_16443237.png" alt="Feed Icon" />
                 <h1>Medicine Management</h1>
             </div>
 
-            <!-- Content Section -->
             <div class="content">
 
                 <div class="row justify-content-center align-items-center" style="min-height: 70vh;">

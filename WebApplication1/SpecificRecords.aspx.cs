@@ -96,7 +96,6 @@ namespace WebApplication1
             {
                 DataTable allRecords = gvAllRecords(fromDate, toDate);
 
-                // Bind the data to the GridView
                 gridAllRecords.DataSource = allRecords;
                 gridAllRecords.DataBind();
 

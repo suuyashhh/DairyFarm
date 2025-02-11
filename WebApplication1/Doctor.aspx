@@ -135,13 +135,11 @@
 <body>
     <form id="form1" runat="server">
         <div class="container-fluid">
-            <!-- Page Header with Image and Feeds Title -->
             <div class="header">
                 <img src="assets/img/doctor_16802630.png" alt="Doctor Icon" />
                 <h1>Doctor Management</h1>
             </div>
 
-            <!-- Doctor Management Form Section -->
             <div class="content">
                 <div class="row justify-content-center align-items-center" style="min-height: 70vh;">
                     <div class="col-md-8 col-lg-6">
@@ -188,7 +186,6 @@
     </script>
 
 
-    <!-- Back button handling script -->
     <script type="text/javascript">
         window.onpopstate = function (event) {
             window.location.href = 'WebPage.aspx'; 

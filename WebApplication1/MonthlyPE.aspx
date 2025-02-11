@@ -104,14 +104,12 @@
 <body>
     <form id="form1" runat="server">
         <div class="container-fluid">
-            <!-- Page Header with Image and Feeds Title -->
             <div class="header">
                 <img src="assets/img/fiscal_13495984.png" alt="Feed Icon" />
                 <h1>Monthly Profit Expense Management</h1>
             </div>
 
             <div style="margin-top: 150px"></div>
-            <!-- Content -->
             <asp:Literal runat="server" ID="MonthPE"></asp:Literal>
 
         </div>

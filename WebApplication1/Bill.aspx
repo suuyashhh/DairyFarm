@@ -137,13 +137,11 @@
 <body>
     <form id="form1" runat="server">
         <div class="container-fluid">
-            <!-- Page Header with Image and Feeds Title -->
             <div class="header">
                 <img src="assets/img/bill_1052856.png" alt="Bill Icon" />
                 <h1>Bill Management</h1>
             </div>
 
-            <!-- Feeds Form Section -->
             <div class="content">
 
                 <div class="row justify-content-center align-items-center " style="min-height: 70vh !important;">

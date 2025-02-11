@@ -184,7 +184,6 @@
 <body>
     <form id="form1" runat="server">
         <div class="container-fluid">
-            <!-- Page Header with Image and Feeds Title -->
             <div class="header">
                 <img src="assets/img/HistoryRecord.png" alt="Feed Icon" />
                 <h1>History</h1>

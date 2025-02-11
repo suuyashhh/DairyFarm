@@ -143,7 +143,6 @@
     <form id="form1" runat="server">
         <div class="container-fluid">
 
-            <!-- Header with fixed position -->
             <div class="header">
                 <img src="assets/img/seed-bag_12627079.png" alt="Feed Icon" />
                 <h1>Feeds Management</h1>
@@ -195,7 +194,6 @@
         }
     </script>
 
-    <!-- Back button handling script -->
     <script type="text/javascript">
         window.onpopstate = function (event) {
             window.location.href = 'WebPage.aspx'; 

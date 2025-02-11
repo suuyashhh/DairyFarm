@@ -153,7 +153,6 @@
             <h1>Calculator</h1>
         </div>
         <div class="container-fluid">
-            <!-- Calculator Body -->
             <div class="calculator">
                 <input type="text" id="result" class="screen form-control" readonly="" />
 
@@ -232,7 +231,6 @@
         </div>
     </form>
 
-    <!-- Back button handling script -->
     <script type="text/javascript">
         window.onpopstate = function (event) {
             window.location.href = 'WebPage.aspx'; 

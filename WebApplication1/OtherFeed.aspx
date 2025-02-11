@@ -138,13 +138,11 @@
 <body>
     <form id="form1" runat="server">
         <div class="container-fluid">
-            <!-- Fixed Header with Image and Feeds Title -->
             <div class="header">
                 <img src="assets/img/Dryfeed_9137270.png" alt="Feed Icon" />
                 <h1>OtherFeeds Management</h1>
             </div>
 
-            <!-- Feeds Form Section -->
             <div class="content">
 
                 <div class="row justify-content-center align-items-center " style="min-height: 70vh !important;">
@@ -203,9 +201,6 @@
         }
     </script>
 
-
-
-    <!-- Back button handling script -->
     <script type="text/javascript">
         window.onpopstate = function (event) {
             window.location.href = 'WebPage.aspx';
